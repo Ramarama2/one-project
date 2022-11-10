@@ -1,0 +1,58 @@
+
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+    height: 50vh;
+}
+
+.card {
+    margin: 4% 40% 0 ;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.card-img-top {
+    width: auto;
+    border-radius: 20px 20px 0px 0px;
+       
+}
+
+.card-body p {
+    color: #a2a7b5;
+}
+
+#fx {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pp {
+    margin-bottom: 3px;
+}
+
+#dv {
+    background-color: blue;
+    border-radius: 10px !important;
+} 
+
+.card .par {
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+}
+
+@media(max-width:750px) {
+    .card{
+        text-align: center;
+        margin: 60px 0 0 20px;
+       }
+       .card-img-top {
+           width: auto;
+           
+              
+       }
+    
+}
